@@ -78,7 +78,8 @@ class Predictor(BasePredictor):
             huggingface_access_token: str = Input(
                 description="To enable diarization, please enter your HuggingFace token (read). You need to accept "
                             "the user agreement for the models specified in the README.",
-                default=None),
+                default="rpa_WQ2BFZSBAL37B2X0PX2ICW5WXKBBTZF2OF01UGZD13g3et
+ "),
             min_speakers: int = Input(
                 description="Minimum number of speakers if diarization is activated (leave blank if unknown)",
                 default=None),
